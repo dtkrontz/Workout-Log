@@ -2,6 +2,9 @@ require("dotenv").config();
 const Express = require('express');
 const app = Express();
 const dbConnection = require("./db");
+const middleware = require('./middleware');
+
+app.use(middleware.CORS);
 
 app.use(Express.json());
 

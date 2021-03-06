@@ -37,7 +37,7 @@ router.post("/register", async (req, res) => {
     }
 });
 
-// LOG IN WITT AN EXISTING USER
+// LOG IN WITH AN EXISTING USER
 
 router.post("/login", async (req, res) => {
     let {username, password} = req.body.user;
