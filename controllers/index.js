@@ -4,4 +4,4 @@ const UserController = require("./userController");
 module.exports = {
     logController,
     UserController
-}
+};
